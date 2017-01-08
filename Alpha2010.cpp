@@ -25,6 +25,8 @@ int main()
   intVec.push_back(-6);
   intVec.push_back(2);
   intVec.push_back(1);
+  intVec.push_back(1);
+  intVec.push_back(-6);
 
   int result = solution(intVec);
   cout << "Result: " << result << endl;
